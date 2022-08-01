@@ -1,7 +1,9 @@
 set(TARGET_NAME big)
 
 set(PUBLIC_HEADER_FILES
-  include/big.hpp)
+  include/big/big.hpp
+  include/big/util.hpp
+  include/big/intrin.hpp)
 
 set(SOURCE_FILES ${PUBLIC_HEADER_FILES} tmp.cpp)
 
